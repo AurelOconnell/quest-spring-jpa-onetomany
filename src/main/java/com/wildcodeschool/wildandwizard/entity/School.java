@@ -18,7 +18,7 @@ public class School {
     private Long capacity;
     private String country;
 
-    @OneToMany(mappedBy = "wizard")
+    @OneToMany(mappedBy = "school")
     private List<Wizard> wizards;
 
     public School() {
